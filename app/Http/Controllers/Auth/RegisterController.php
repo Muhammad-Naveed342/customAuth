@@ -37,5 +37,6 @@ class RegisterController extends Controller
 
         // Redirect to the login page with success message
         return redirect()->route('login')->with('success', 'Registration successful. Please login.');
+        
     }
 }
